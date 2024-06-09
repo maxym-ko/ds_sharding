@@ -102,3 +102,9 @@ use testDatabase;
 db.users.countDocuments();  // Check shard2
 .exit
 ```
+
+#### Step 11: Simple check via Python client
+```shell
+pip install -r requirements.txt
+python simple_check.py
+```
