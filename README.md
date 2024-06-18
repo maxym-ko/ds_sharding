@@ -108,3 +108,9 @@ db.users.countDocuments();  // Check shard2
 pip install -r requirements.txt
 python simple_check.py
 ```
+
+### Cleaning up
+```shell
+mongosh testDatabase --eval "db.dropDatabase()"
+brew services stop mongodb-community
+```
